@@ -1,0 +1,5 @@
+data/
+results/test_pred.txt
+__pycache__/
+.pytest_cache/
+*.pyc
