@@ -1,0 +1,21 @@
+{
+  "dataset": "Tashkeela benchmark (Fadel et al., 2019) - test split",
+  "test_lines": 2500,
+  "train_lines": 50000,
+  "model": "FrequencyDiacritizer (word bigram -> word -> char trigram backoff)",
+  "guard_failures_on_model_output": 0,
+  "train_seconds": 24.0,
+  "predict_seconds": 0.3,
+  "DER": {
+    "with_case_ending": 6.13,
+    "without_case_ending": 4.05,
+    "with_case_ending_excl_no_diacritic": 7.1,
+    "without_case_ending_excl_no_diacritic": 4.51
+  },
+  "WER": {
+    "with_case_ending": 16.98,
+    "without_case_ending": 7.95,
+    "with_case_ending_excl_no_diacritic": 16.62,
+    "without_case_ending_excl_no_diacritic": 7.69
+  }
+}

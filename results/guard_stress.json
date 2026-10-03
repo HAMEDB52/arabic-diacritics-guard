@@ -1,0 +1,100 @@
+{
+  "dataset": "Tashkeela benchmark (Fadel et al., 2019) - test split",
+  "lines": 2500,
+  "clean_outputs": {
+    "checked": 5000,
+    "false_rejections": 0
+  },
+  "corrupted_outputs": {
+    "applicable": 32804,
+    "rejected": 32804,
+    "correct_kind": 32804
+  },
+  "by_corruption": {
+    "letter_substitution": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    },
+    "hamza_normalisation": {
+      "applicable": 2291,
+      "rejected": 2291,
+      "correct_kind": 2291,
+      "rejection_rate": 100.0
+    },
+    "ya_alef_maqsura_swap": {
+      "applicable": 2376,
+      "rejected": 2376,
+      "correct_kind": 2376,
+      "rejection_rate": 100.0
+    },
+    "ta_marbuta_to_ha": {
+      "applicable": 1811,
+      "rejected": 1811,
+      "correct_kind": 1811,
+      "rejection_rate": 100.0
+    },
+    "character_deleted": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    },
+    "character_inserted": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    },
+    "word_dropped": {
+      "applicable": 2498,
+      "rejected": 2498,
+      "correct_kind": 2498,
+      "rejection_rate": 100.0
+    },
+    "whitespace_changed": {
+      "applicable": 2498,
+      "rejected": 2498,
+      "correct_kind": 2498,
+      "rejection_rate": 100.0
+    },
+    "tatweel_inserted": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    },
+    "zero_width_inserted": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    },
+    "arabic_punctuation_latinised": {
+      "applicable": 1332,
+      "rejected": 1332,
+      "correct_kind": 1332,
+      "rejection_rate": 100.0
+    },
+    "diacritic_on_space": {
+      "applicable": 2498,
+      "rejected": 2498,
+      "correct_kind": 2498,
+      "rejection_rate": 100.0
+    },
+    "two_harakat_on_one_letter": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    },
+    "existing_diacritic_changed": {
+      "applicable": 2500,
+      "rejected": 2500,
+      "correct_kind": 2500,
+      "rejection_rate": 100.0
+    }
+  },
+  "mean_microseconds_per_check": 120.4
+}
